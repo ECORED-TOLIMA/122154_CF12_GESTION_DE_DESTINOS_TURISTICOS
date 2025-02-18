@@ -1,7 +1,7 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE _DESCRIPCIÓN',
+    componenteFormativo: 'NOMBRE_DEL_COMPONENTE_FORMATIVO',
+    descripcionCurso: 'BREVE_DESCRIPCIÓN',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
