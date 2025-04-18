@@ -1,18 +1,182 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float1 5.0s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 55%
+    left: 5%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: rotation 10.0s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 35%
+    right: 15%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
+  
+@keyframes rotation
+  0%
+    transform: rotate(0deg)
+    opacity: 0
+  50%
+    transform: rotate(180deg)
+    opacity: 1
+  100%
+    transform: rotate(359deg)
+    opacity: 0
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG03
+  background-image: url("../assets/curso/fondos/img03.png")
+
+.BGIMG01, .BGIMG02, .BGIMG03
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG03, .BGM05
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BG01, .tabs-a__tab, .tabs-c__tab, .linea-tiempo-d__item__number .tarjeta .tarjeta--gris
+  background-color: #D1E1DD
+
+.BG02
+  background-color: #FEEBCF
+
+.BG03, .BG01.acordion__activo, .cajon.color-secundario,
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #FFE9DF
+
+.BG04, .cajon.color-primario, .bloque-texto-d.color-acento-contenido:before
+  background-color: #FEF7EB
+
+.BGM05
+  background: linear-gradient(to bottom, #FFF, #FFFCF7, #FFF)
+  
+.acordion__accion__btn--a, .acordion__accion__btn--b, .linea-tiempo-c__header__btn--right, .linea-tiempo-c__header__btn--left
+  background-color: #09614D
+
+.img-infografica__item__dot:before, .img-infografica__item__dot:after
+    background-color: #09614D
+  
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  border-radius: 5px 5px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 5px 5px
+  
+.slyder-f__btn
+  color: #09614D
+
+.acordion__accion__btn--a i, .acordion__accion__btn--b i, .barra-avance__boton--regresar span,.img-infografica__item__numero,
+.linea-tiempo-c__header__btn--left i, .linea-tiempo-c__header__btn--right i
+  color: #FFF !important
+
+.tcvo
+  color: #7A4F00 !important
+
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+
+.tabs-c__tab--active
+  font-weight: 900
+  background-color: #FFF
+
+.tabs-c__header
+  margin-bottom: 0px
+
+.tarjetas-up
+  overflow: hidden
+  border-radius: 5px
+  position: relative
+  &_card
+    transition: bottom .3s ease-in-out
+    position: absolute
+    border-radius: 5px
+    width: 100%
+    min-height: auto
+    left: 0
+    bottom: 0%
+    transform: translateY(calc(100% - 4rem))
+    padding: 1.5rem
+    i:last-child
+      display: none
+  &:hover
+    .tarjetas-up_card
+      transform: translateY(0)
+    i:first-child
+      display: none
+    i:last-child
+      display: block
+    
+.bloque-texto-d:before
+
+.table td
+  text-align: start
+
+.img100
+  width: 100px
+
+.img250
+  width: 250px
+
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: $bp-max-md)
+    display: none
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #FFE9DF
+  @media (max-width: $bp-max-md)
+    padding-right: 2rem
+
+.BGB04
+  &::before
+    background-color: #FEF7EB
+
+.crd--first:before 
+  border-top-left-radius: 30px
+
+.crd--last:before 
+  border-bottom-left-radius: 30px
+
+.fraction
+  display: inline-block
+  vertical-align: middle 
+  margin: 0 0.2em 0.4ex
+  text-align: center
+
+.fraction > span
+  display: block
+  padding-top: 0.15em
+
+.fraction span.fdn
+  border-top: thin solid #12263F
+
+.fraction span.bar
+  display: none

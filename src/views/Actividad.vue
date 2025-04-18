@@ -9,299 +9,321 @@
   </template>
 
 <script>
+// eslint-disable-next-line prettier/prettier
+import Actividad from 'ecored-pkg-fliz/plugin/components/actividad/Actividad.vue';
 export default {
   name: 'ActividadDidactica',
+  components: {
+    Actividad,
+  },
   data: () => ({
     cuestionario: {
-      tema: 'Nombre del componente formativo',
+      tema:
+        'Aplicando la estadística para el manejo de la información turística',
       titulo: 'Cuestionario',
-      introduccion: '<b> Objetivo:</b> Texto de Word',
+      introduccion:
+        '<b> Objetivo:</b> Evaluar y reforzar el conocimiento adquirido sobre las diferentes herramientas estadísticas aplicadas en la recolección y manejo de la información y datos turísticos de acuerdo con la Cuenta Satélite de Turismo (CST).',
       barajarPreguntas: true,
       preguntas: [
         {
           id: 1,
-          texto: '¿Cuál es la capital de Francia?',
+          texto:
+            'Una característica de la medición estadística es que los datos deben poder compararse en un periodo de tiempo.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'París', esCorrecta: true },
-            { id: 'b', texto: 'Londres', esCorrecta: false },
-            { id: 'c', texto: 'Berlín', esCorrecta: false },
-            { id: 'd', texto: 'Madrid', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto: '¿Cuál es el planeta más cercano al Sol?',
+          texto:
+            'La estadística descriptiva tiene como objetivo inferir conclusiones, a partir de datos recolectados mediante una muestra.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Venus', esCorrecta: false },
-            { id: 'b', texto: 'Mercurio', esCorrecta: true },
-            { id: 'c', texto: 'Tierra', esCorrecta: false },
-            { id: 'd', texto: 'Marte', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: "¿Quién escribió 'Cien años de soledad'?",
+          texto:
+            'La población es el conjunto formado por la totalidad de unidades que conforman un objeto de estudio.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Gabriel García Márquez', esCorrecta: true },
-            { id: 'b', texto: 'Mario Vargas Llosa', esCorrecta: false },
-            { id: 'c', texto: 'Jorge Luis Borges', esCorrecta: false },
-            { id: 'd', texto: 'Pablo Neruda', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
-          texto: '¿Cuál es el elemento químico con el símbolo H?',
+          texto:
+            'Un dato cuantitativo representa atributos y actitudes de un objeto de estudio.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Helio', esCorrecta: false },
-            { id: 'b', texto: 'Hidrógeno', esCorrecta: true },
-            { id: 'c', texto: 'Hierro', esCorrecta: false },
-            { id: 'd', texto: 'Hafnio', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Cuál es el idioma más hablado del mundo?',
+          texto:
+            'Las dos principales variables que se manejan para la información turística son la demanda y la oferta turística.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Inglés', esCorrecta: false },
-            { id: 'b', texto: 'Español', esCorrecta: false },
-            { id: 'c', texto: 'Chino mandarín', esCorrecta: true },
-            { id: 'd', texto: 'Árabe', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto: '¿En qué año llegó el hombre a la Luna?',
+          texto:
+            'Como su nombre lo indica, una variable cualitativa mide las magnitudes de una característica del objeto de estudio.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '1969', esCorrecta: true },
-            { id: 'b', texto: '1972', esCorrecta: false },
-            { id: 'c', texto: '1965', esCorrecta: false },
-            { id: 'd', texto: '1959', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto: '¿Qué río atraviesa la ciudad de Londres?',
+          texto:
+            'El indicador total gasto turístico emisor corresponde a la variable demanda.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Río Támesis', esCorrecta: true },
-            { id: 'b', texto: 'Río Danubio', esCorrecta: false },
-            { id: 'c', texto: 'Río Sena', esCorrecta: false },
-            { id: 'd', texto: 'Río Rin', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto: '¿Quién pintó la Mona Lisa?',
+          texto:
+            'El SITUR es un sistema de información que alimenta y proporciona datos a la Cuenta Satélite de Turismo (CST).',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Leonardo da Vinci', esCorrecta: true },
-            { id: 'b', texto: 'Pablo Picasso', esCorrecta: false },
-            { id: 'c', texto: 'Vincent van Gogh', esCorrecta: false },
-            { id: 'd', texto: 'Claude Monet', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 9,
-          texto: '¿Cuál es el océano más grande del mundo?',
+          texto:
+            'El DANE es la entidad jurídica privada que presta servicios públicos dentro del sistema estadístico nacional.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Océano Atlántico', esCorrecta: false },
-            { id: 'b', texto: 'Océano Índico', esCorrecta: false },
-            { id: 'c', texto: 'Océano Pacífico', esCorrecta: true },
-            { id: 'd', texto: 'Océano Ártico', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto: '¿Qué invento se le atribuye a Alexander Graham Bell?',
+          texto:
+            'Una fuente primaria de información es utilizada cuando la información requerida se desconoce y se debe recolectar de primera mano o directamente en el objeto de estudio.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Teléfono', esCorrecta: true },
-            { id: 'b', texto: 'Telégrafo', esCorrecta: false },
-            { id: 'c', texto: 'Bombilla', esCorrecta: false },
-            { id: 'd', texto: 'Radio', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto: '¿Qué continente alberga la selva amazónica?',
+          texto:
+            'La revisión o análisis documental es una técnica de recolección de información que se utiliza al acudir a una fuente primaria.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'África', esCorrecta: false },
-            { id: 'b', texto: 'Asia', esCorrecta: false },
-            { id: 'c', texto: 'América del Sur', esCorrecta: true },
-            { id: 'd', texto: 'Oceanía', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
-          texto: '¿Cuál es el animal más rápido del mundo?',
+          texto:
+            'La encuesta es la técnica de recolección de datos que más se utiliza para la consecución de información en el turismo. ',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Tigre', esCorrecta: false },
-            { id: 'b', texto: 'León', esCorrecta: false },
-            { id: 'c', texto: 'Guepardo', esCorrecta: true },
-            { id: 'd', texto: 'Jaguar', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 13,
           texto:
-            '¿Qué órgano es responsable de bombear la sangre en el cuerpo?',
+            'El cuestionario es una fuente de información, por medio de la cual se pueden recolectar datos sobre el turismo.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Cerebro', esCorrecta: false },
-            { id: 'b', texto: 'Pulmones', esCorrecta: false },
-            { id: 'c', texto: 'Corazón', esCorrecta: true },
-            { id: 'd', texto: 'Hígado', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 14,
-          texto: "¿Quién es el autor de 'Don Quijote de la Mancha'?",
+          texto:
+            'Al aplicar encuestas como técnica de recolección de datos, se deben utilizar preferiblemente preguntas cerradas en el cuestionario diseñado.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Miguel de Cervantes', esCorrecta: true },
-            { id: 'b', texto: 'Federico García Lorca', esCorrecta: false },
-            { id: 'c', texto: 'Lope de Vega', esCorrecta: false },
-            { id: 'd', texto: 'Pedro Calderón de la Barca', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 15,
-          texto: '¿Qué gas utilizan las plantas durante la fotosíntesis?',
+          texto:
+            'Las tablas de distribución de frecuencias, son una herramienta estadística que permite medir la cantidad de veces que una respuesta se repite en una pregunta de una encuesta. ',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Oxígeno', esCorrecta: false },
-            { id: 'b', texto: 'Dióxido de carbono', esCorrecta: true },
-            { id: 'c', texto: 'Nitrógeno', esCorrecta: false },
-            { id: 'd', texto: 'Hidrógeno', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 16,
-          texto: '¿Quién fue el primer presidente de los Estados Unidos?',
+          texto:
+            'La organización mundial del turismo OMT ha sido la entidad encargada de orientar, impulsar y apoyar el desarrollo de la Cuenta Satélite de Turismo (CST).',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Thomas Jefferson', esCorrecta: false },
-            { id: 'b', texto: 'George Washington', esCorrecta: true },
-            { id: 'c', texto: 'Abraham Lincoln', esCorrecta: false },
-            { id: 'd', texto: 'John Adams', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 17,
-          texto: '¿Qué país tiene el mayor número de habitantes?',
+          texto:
+            'La Cuenta Satélite de Turismo (CST) es el mecanismo conformado por 5 tablas que consolidan y divulgan la información del turismo en los territorios o destinos turísticos.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'India', esCorrecta: false },
-            { id: 'b', texto: 'Estados Unidos', esCorrecta: false },
-            { id: 'c', texto: 'China', esCorrecta: true },
-            { id: 'd', texto: 'Rusia', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 18,
-          texto: '¿Qué es el fenómeno de la refracción?',
+          texto:
+            'La Cuenta Satélite de Turismo (CST) tiene como principal propósito desarrollar un sistema de estadísticas del turismo, para proponer mejoras en el sector.',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'La dispersión de la luz', esCorrecta: false },
-            {
-              id: 'b',
-              texto: 'El cambio de dirección de la luz',
-              esCorrecta: true,
-            },
-            { id: 'c', texto: 'La absorción de la luz', esCorrecta: false },
-            { id: 'd', texto: 'La emisión de luz', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 19,
-          texto: '¿Cuál es el símbolo químico del oro?',
+          texto:
+            'La Cuenta Satélite de Turismo (CST) no hace parte del sistema de cuentas nacionales que manejan la información estadística de un país.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Ag', esCorrecta: false },
-            { id: 'b', texto: 'Au', esCorrecta: true },
-            { id: 'c', texto: 'Fe', esCorrecta: false },
-            { id: 'd', texto: 'Cu', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 20,
-          texto: '¿En qué año comenzó la Segunda Guerra Mundial?',
+          texto:
+            'La Cuenta Satélite de Turismo (CST) está conformada por indicadores, que principalmente representan información acerca del consumo turístico en los territorios. ',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: '1914', esCorrecta: false },
-            { id: 'b', texto: '1939', esCorrecta: true },
-            { id: 'c', texto: '1945', esCorrecta: false },
-            { id: 'd', texto: '1929', esCorrecta: false },
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            'Excelente trabajo. Tiene un claro entendimiento sobre estadística para el turismo.',
+          mensaje_incorrecto:
+            'Respuesta incorrecta, revise nuevamente el contenido del componente formativo.',
         },
       ],
       mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
