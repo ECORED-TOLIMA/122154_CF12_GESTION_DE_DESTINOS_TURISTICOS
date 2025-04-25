@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Análisis de datos estadísticos para el turismo',
     Description:
-      'Este componente formativo permite identificar aspectos básicos de Estadística aplicable para la recolección, procesamiento y presentación de información relevante del turismo en las regiones y en el territorio nacional. Mediante el análisis de datos se consolidan estadísticas de oferta y demanda turística del destino, que permite conocer el comportamiento del turismo y tomar decisiones estratégicas para el mejoramiento y desarrollo del sector.',
+      'Este componente formativo permite identificar aspectos básicos de estadística aplicable para la recolección, procesamiento y presentación de información relevante del turismo en las regiones y en el territorio nacional. Mediante el análisis de datos se consolidan estadísticas de oferta y demanda turística del destino, que permite conocer el comportamiento del turismo y tomar decisiones estratégicas para el mejoramiento y desarrollo del sector.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -172,7 +172,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/CFA_12_122154_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -273,7 +273,7 @@ export default {
     },
     {
       referencia:
-        'Hernández Sampieri, R., Feenández Collado, c. & Bapista Lucio, P. (2010). <em>Metodología de la investigación</em>. Editorial McGraw Hill.',
+        'Hernández Sampieri, R., Fernández Collado, c. & Bapista Lucio, P. (2010). <em>Metodología de la investigación</em>. Editorial McGraw Hill.',
     },
     {
       referencia:
@@ -334,7 +334,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Juan Daniel Polanco Muñoz',
+          nombre: 'Yobani Penagos',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },

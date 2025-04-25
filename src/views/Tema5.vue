@@ -151,7 +151,7 @@
         .col-lg-6.order-lg-1.order-2
           p Se calcula como el producto entre el gasto per cápita día por motivo de viaje o tipo de transporte en turismo interno y el número de viajes realizados en turismo interno.
           .tarjeta.tarjeta--blanca.p-4
-            .h4.text-center.mb-0 Total gasto turístico interno=gasto per capita día * número de viajes
+            .h4.text-center.mb-0 Total gasto turístico interno=gasto per cápita día * número de viajes
         .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
           img(src='@/assets/curso/tema5/img15.jpg' alt="Imagen decorativa")
       .row.justify-content-center(titulo="Total gasto turístico receptor")

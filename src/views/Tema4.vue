@@ -99,7 +99,7 @@
                       | Entrevistas.
                     li(style="margin-bottom: 2px")
                       i.fas.fa-check-circle.tcvo
-                      | Grupo focal (Focus group).
+                      p.mb-0 Grupo focal (#[em Focus group]).
                     li(style="margin-bottom: 2px")
                       i.fas.fa-check-circle.tcvo
                       | Observación.
@@ -178,7 +178,7 @@
     .mb-4.d-flex(data-aos="fade-right")
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #FFE9DF; border-radius: 15px;")
         img(src='@/assets/curso/temas/img01.svg' style="max-width: 32px; margin-left: -16px;")
-        h3.col.ps-3.mb-0 Grupo focal (Focus group)
+        h3.col.ps-3.mb-0 Grupo focal (#[em Focus group])
 
     p Es una técnica por medio de la cual se prepara un guion para que un grupo de personas (entre cuatro y seis), libremente y con comodidad expresen sus sentimientos y opiniones. Se permite que entre ellos haya aclaraciones, pero se debe evitar el debate o el reproche. Esta herramienta es más flexible que la entrevista, ya que los participantes más que responder puntualmente a preguntas, son incitados para expresarse según sus expectativas o experiencias. 
     p.mb-5 El principal propósito de las sesiones de grupo, consiste en obtener información al escuchar a un conjunto de personas del mercado meta, convocadas al tiempo y en el mismo lugar o espacio, siendo apropiadas para hablar sobre temas de interés para el investigador.
@@ -251,7 +251,7 @@
         img(src='@/assets/curso/temas/img01.svg' style="max-width: 32px; margin-left: -16px;")
         h3.col.ps-3.mb-0 Encuesta
 
-    p.mb-5 Es una herramienta que permite recoger la información, a través cuestionarios con preguntas concretas (abiertas o cerradas) acerca de variables que se desean medir. Las preguntas cerradas se caracterizan porque brindan al entrevistado unas opciones fijas de respuesta para que elija; en cambio, las preguntas abiertas dejan el espacio para que el entrevistado responda como lo desee.
+    p.mb-5 Es una herramienta que permite recoger la información, a través de cuestionarios con preguntas concretas (abiertas o cerradas) acerca de variables que se desean medir. Las preguntas cerradas se caracterizan porque brindan al entrevistado unas opciones fijas de respuesta para que elija; en cambio, las preguntas abiertas dejan el espacio para que el entrevistado responda como lo desee.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -552,7 +552,7 @@
         .row.justify-content-center.mb-4
           .col-lg-5.col-7
             img(src='@/assets/curso/tema4/img33.svg' alt="Imagen decorativa")
-        .h4.text-center Ventajas01
+        .h4.text-center Escalas comparativas
         ul.lista-ul--color.mb-0
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle.tcvo
@@ -576,7 +576,7 @@
         .row.justify-content-center.mb-4
           .col-lg-5.col-7
             img(src='@/assets/curso/tema4/img34.svg' alt="Imagen decorativa")
-        .h4.text-center Ventajas01
+        .h4.text-center Escalas no comparativas
         ul.lista-ul--color.mb-0
           li(style="margin-bottom: 2px")
             i.fas.fa-check-circle.tcvo
@@ -683,7 +683,7 @@
           img(src='@/assets/curso/tema4/img38.svg' alt="Imagen decorativa")
         .col-lg-10
           .h4 De proporciones
-          p Tiene similares características de las descritas en el tipo anterior (intervalo) y, además, ayuda a la obtención de razone coherente con sus valores. 
+          p Tiene similares características de las descritas en el tipo anterior (intervalo) y, además, ayuda a la obtención de razones coherentes con sus valores. 
           p Ejemplo:
           p ¿Cuánto dinero ha gastado en jugo de naranja durante la última semana en el supermercado?
           p $__ __ __ __ __
@@ -858,14 +858,14 @@
               figure
                 img(src="@/assets/curso/tema4/img51.svg", alt="Imagen decorativa").img100
             .col
-              p.mb-0 Registrar en la columna 1 la numeración con la cual identifica cada una de las encuestas realizadas.aturales, puede llevar a su degradación.
+              p.mb-0 Registrar en la columna 1 la numeración con la cual identifica cada una de las encuestas realizadas.
         .crd.crd--avatarHorizontal.BGB04.py-4
           .row.align-items-center
             .col-auto
               figure
                 img(src="@/assets/curso/tema4/img52.svg", alt="Imagen decorativa").img100
             .col
-              p.mb-0 A partir de la columna 2 en adelante, digitar el código de la respuesta dada por el encuestado, a cada una de las preguntas (columnas) y en cada encuesta tabulada (filas).ectores de la comunidad se benefician del turismo.
+              p.mb-0 A partir de la columna 2 en adelante, digitar el código de la respuesta dada por el encuestado, a cada una de las preguntas (columnas) y en cada encuesta tabulada (filas).
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
