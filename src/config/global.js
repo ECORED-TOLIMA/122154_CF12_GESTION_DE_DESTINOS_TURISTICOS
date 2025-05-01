@@ -32,7 +32,7 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'La Estadística para el turismo',
+        titulo: 'La estadística para el turismo',
         desarrolloContenidos: true,
         subMenu: [
           {

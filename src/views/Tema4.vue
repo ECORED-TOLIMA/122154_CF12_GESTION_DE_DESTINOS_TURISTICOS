@@ -948,7 +948,7 @@
           .tarjeta-avatar-b__img(style="min-width: 10%; max-width: 10%; left: -5%")
             img(src='@/assets/curso/tema4/img64.svg' alt="Imagen decorativa")
           .tarjeta.BG04.p-4
-            p.ms-4.mb-0 Para el caso de interpretaciones con más de 2 categorías de respuesta, se utiliza preferiblemente los resultados relevantes que corresponden a la frecuencia superior o más alta y la menor o más baja. Se puede también incluir para algunas interpretaciones la segunda frecuencia más alta, recomendando no incluir todas las frecuencias o categorías de respuestas en la interpretación. 
+            p.ms-5.mb-0 Para el caso de interpretaciones con más de 2 categorías de respuesta, se utiliza preferiblemente los resultados relevantes que corresponden a la frecuencia superior o más alta y la menor o más baja. Se puede también incluir para algunas interpretaciones la segunda frecuencia más alta, recomendando no incluir todas las frecuencias o categorías de respuestas en la interpretación. 
 
 </template>
 <script>

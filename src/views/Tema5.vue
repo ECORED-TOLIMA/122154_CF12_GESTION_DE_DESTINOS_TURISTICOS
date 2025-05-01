@@ -59,37 +59,37 @@
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/tema5/img04.svg' alt="Imagen decorativa")
-        p.mb-0 El Ministerio de Comercio, Industria y Turismo, quien lo presidirá
+        p.mb-0 El Ministerio de Comercio, Industria y Turismo, quien lo presidirá.
       .tarjeta.BGIMG01.p-4
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/tema5/img05.svg' alt="Imagen decorativa")
-        p.mb-0 El viceministro de Turismo, quien lo presidirá en ausencia del ministro de Comercio, Industria y Turismo
+        p.mb-0 El viceministro de Turismo, quien lo presidirá en ausencia del ministro de Comercio, Industria y Turismo.
       .tarjeta.BGIMG01.p-4
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/tema5/img06.svg' alt="Imagen decorativa")
-        p.mb-0 El presidente de Procolombia, quien podrá delegar su participación en el vicepresidente de Turismo
+        p.mb-0 El presidente de Procolombia, quien podrá delegar su participación en el vicepresidente de Turismo.
       .tarjeta.BGIMG01.p-4
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/tema5/img07.svg' alt="Imagen decorativa")
-        p.mb-0 El director o Gerente de la entidad administradora del Fondo de Promoción Turística o quien haga sus veces
+        p.mb-0 El director o Gerente de la entidad administradora del Fondo de Promoción Turística o quien haga sus veces.
       .tarjeta.BGIMG01.p-4
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/tema5/img08.svg' alt="Imagen decorativa")
-        p.mb-0 El presidente de la asociación de agremiaciones nacionales de prestadores turísticos, con mayor número de prestadores afiliados
+        p.mb-0 El presidente de la asociación de agremiaciones nacionales de prestadores turísticos, con mayor número de prestadores afiliados.
       .tarjeta.BGIMG01.p-4
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/tema5/img09.svg' alt="Imagen decorativa")
-        p.mb-0 Los presidentes de las agremiaciones nacionales de los prestadores de servicios turísticos señalados en el artículo 12 de la Ley 1101 de 2006
+        p.mb-0 Los presidentes de las agremiaciones nacionales de los prestadores de servicios turísticos señalados en el artículo 12 de la Ley 1101 de 2006.
       .tarjeta.BGIMG01.p-4
         .row.justify-content-center.mb-4
           .col-8
             img(src='@/assets/curso/tema5/img10.svg' alt="Imagen decorativa")
-        p.mb-0 Los presidentes de las agremiaciones nacionales de los aportantes de la Contribución Parafiscal para la Promoción del Turismo señalados en el artículo 3° de la Ley 1101 de 2006
+        p.mb-0 Los presidentes de las agremiaciones nacionales de los aportantes de la Contribución Parafiscal para la Promoción del Turismo señalados en el artículo 3° de la Ley 1101 de 2006.
       .tarjeta.BGIMG01.p-4
         .row.justify-content-center.mb-4
           .col-8

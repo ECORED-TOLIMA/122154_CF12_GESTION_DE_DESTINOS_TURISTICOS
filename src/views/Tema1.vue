@@ -89,11 +89,11 @@
                 li 
                   .lista-ol--cuadro__vineta(style="color: #12263F; font-weight: bold;")
                     span 1
-                  | La estadística proporciona los elementos básicos para fundamentar una investigación
+                  | La estadística proporciona los elementos básicos para fundamentar una investigación.
                 li 
                   .lista-ol--cuadro__vineta(style="color: #12263F; font-weight: bold;")
                     span 2
-                  | Permite planear la obtención de los datos, para que de ellos se puedan extraer conclusiones confiables
+                  | Permite planear la obtención de los datos, para que de ellos se puedan extraer conclusiones confiables.
                 li 
                   .lista-ol--cuadro__vineta(style="color: #12263F; font-weight: bold;")
                     span 3

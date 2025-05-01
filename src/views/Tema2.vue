@@ -178,7 +178,7 @@
         .tarjeta-avatar
             img(src='@/assets/curso/tema2/img06.svg' alt="Imagen decorativa")
             .tarjeta.BG03.w-100.h-100.p-4
-              .h5.text-center.mt-5.mb-0 Empleo turístico.
+              .h5.text-center.mt-5.mb-0 Empleo turístico
       .col-lg-4.col-sm-6.col-10.mb-lg-0.mb-4(data-aos="flip-up")
         .tarjeta-avatar
             img(src='@/assets/curso/tema2/img07.svg' alt="Imagen decorativa")
