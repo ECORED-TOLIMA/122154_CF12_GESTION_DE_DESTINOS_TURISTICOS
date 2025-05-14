@@ -26,7 +26,7 @@
                 i.fas.fa-caret-up.fa-2x.me-3
                 i.fas.fa-caret-down.fa-2x.me-3
               h4.mb-0 Interna
-            p.text-center.mb-0 Existe validez interna cuando hay una adecuada conceptualización y operacionalización de la variable y por ende, existe correspondencia entre ambas.
+            p.text-center.mb-0 Cuando hay una adecuada conceptualización y operacionalización de la variable y por ende, existe correspondencia entre ambas.
       .col-xl-5.col-lg-6.col-sm-8.col-10.mb-4(data-aos="flip-up")
         .tarjetas-up(@mouseover="mostrarIndicador = false")
           .indicador--hover(v-if="mostrarIndicador")
@@ -46,7 +46,7 @@
       h2 2.1 Tipos de indicadores según variables
     
     p Es importante establecer con claridad que, para la aplicación de los aspectos estadísticos anteriormente conceptualizados, el fenómeno a estudiar y del cual se recopila información, es el turismo; dentro de este gran fenómeno los objetos de observación y análisis son el turista o visitante, los prestadores de servicios turísticos, la economía generada por el turismo, la balanza de pagos y las entidades o administraciones públicas.
-    p.mb-5 Cada uno de los cuatro (4) anteriores objetos de estudio o categorías, contienen una o algunas variables que son las siguientes:
+    p.mb-5 Cada uno de los anteriores objetos de estudio o categorías, contienen una o algunas variables que son las siguientes: 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")

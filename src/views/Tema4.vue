@@ -15,7 +15,7 @@
           .row.justify-content-center.align-items-center.p-4(titulo="1")
             .col-lg-6.order-lg-1.order-2
               .h4 Identificación de las necesidades de información
-              p.mb-0 Consiste en la identificación adecuada de una necesidad de información para establecer con precisión el o los objetivos del estudio, su alcance y los tipos de datos asociados al mismo.
+              p.mb-0 En esta etapa, se identifica de manera adecuada la necesidad de información para establecer con precisión el o los objetivos del estudio, su alcance, y los tipos de datos asociados al mismo.
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema4/img01.jpg' alt="Imagen decorativa")
           .row.justify-content-center.align-items-center.p-4(titulo="2")
@@ -62,7 +62,7 @@
           .col-lg-6.col-10.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img07.jpg' alt="Imagen decorativa")
           .col-lg-6
-            p.mb-0 Este tipo de fuentes son aquellas que ya han procesado información con fines diferentes al del objeto de estudio. Las principales fuentes de información secundaria son los textos o libros, publicaciones, documentos formales o informe de instituciones públicas o privadas, tesis, trabajos de memorias de conferencias o seminarios, testimonios de expertos, artículos periodísticos, videos documentales, foros. La recolección de esta información se realiza por una interpretación, un análisis, así como la extracción y recopilación de la información contenida o encontrada en la fuente secundaria.
+            p.mb-0 Este tipo de fuentes son aquellas que ya han procesado información con fines diferentes al del objeto de estudio. Las principales fuentes de información secundaria son los libros, monografías, publicaciones periódicas, documentos oficiales o informe técnicos de instituciones públicas o privadas, tesis, trabajos presentados en conferencias o seminarios, testimonios de expertos, artículos periodísticos, videos documentales y foros. La recolección de esta información se realiza por una interpretación, un análisis, así como la extracción y recopilación de la información contenida o encontrada en la fuente secundaria.
 
     p Las principales fuentes secundarias que aportan información estadística del turismo son Migración Colombia y el Banco de la República.
 
@@ -527,7 +527,7 @@
 
     .h4.tcvo <i class="fas fa-dot-circle"></i> Tipos de escalas de respuestas
   
-    p.mb-5 De acuerdo los tipos de escalas, se pueden encontrar las siguientes, con sus respectivos grupos: 
+    p.mb-5 De acuerdo con los tipos de escalas, se pueden encontrar las siguientes, con sus respectivos grupos: 
 
     .tarjeta--container.row.justify-content-center.mb-5
       .col-md.tarjeta.color-primario.p-4(data-aos="fade-right")
@@ -905,10 +905,10 @@
             .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
               img(src='@/assets/curso/tema4/img58.jpg', alt="Imagen decorativa")
             .col-lg-6(data-aos="fade-left")
-              p.mb-0 Se registra en la siguiente columna la frecuencia absoluta fa de cada categoría de respuesta, la cual corresponde o se encuentra en los resultados finales de la tabulación.
+              p.mb-0 b.	Se registra en la siguiente columna la frecuencia absoluta #[em fi] de cada categoría de respuesta, la cual corresponde o se encuentra en los resultados finales de la tabulación.
           .row.justify-content-center
             .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
-              p.mb-0 Se determina la frecuencia relativa fr en la columna final de la tabla, mediante dividir la frecuencia absoluta en la totalidad de datos y multiplicar por 100 para convertir en porcentaje. 
+              p.mb-0 Se determina la frecuencia relativa #[em fr] en la columna final de la tabla, mediante dividir la frecuencia absoluta en la totalidad de datos y multiplicar por 100 para convertir en porcentaje. 
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
               img(src='@/assets/curso/tema4/img59.jpg', alt="Imagen decorativa")
           .row.justify-content-center

@@ -72,7 +72,7 @@
         .cajon.color-secundario
           .row.justify-content-center
             .col-lg-10.order-lg-1.order-2.p-4
-              p.ms-1.mb-0 En la actualidad, esta ciencia moderna puede definirse como un método que permite organizar, sintetizar, presentar, analizar, cuantificar e interpretar grandes volúmenes de datos, de tal manera que se puedan obtener conclusiones válidas (suministrar información) sobre los fenómenos en estudio.
+              p.ms-1.mb-0 En la actualidad, esta ciencia moderna puede definirse como un método que permite organizar, sintetizar, presentar, analizar, cuantificar e interpretar grandes volúmenes de datos, de tal manera que se puedan obtener conclusiones válidas sobre los fenómenos en estudio.
             .col-lg-2.col-4.order-lg-2.order-1.mb-lg-0.mb-4
               img(src='@/assets/curso/tema1/img07.svg' alt="Imagen decorativa")
     
@@ -202,7 +202,7 @@
       .tarjeta.BG03.p-4(titulo="Empleo")
         p.mb-0 Descripción de la naturaleza del empleo y de los puestos de trabajo, de la formación de capital y de la inversión no financiera.
       .tarjeta.BG03.p-4(titulo="Importaciones y exportaciones")
-        p.mb-0 Las importaciones y las exportaciones y las repercusiones sobre la balanza de pagos.
+        p.mb-0 Las importaciones, las exportaciones y las repercusiones sobre la balanza de pagos.
       .tarjeta.BG03.p-4(titulo="Ingresos")
         p.mb-0 Los efectos sobre los ingresos de las administraciones públicas, la creación de rentas personales y de las empresas.
 
@@ -240,13 +240,13 @@
           .col-lg-6.col-10.mb-lg-0.mb-4
             img(src='@/assets/curso/tema1/img21.jpg' alt="Imagen decorativa")
           .col-lg-6
-            p.mb-0 Como su nombre lo indica, miden cualidades y atributos; por ejemplo, ocupación, nacionalidad, estado civil, preferencias, gustos, entre muchas otras y dependiendo del objeto de estudio. También llamadas categóricas, se refieren a las propiedades de los objetos en estudio. Este tipo de variables tiene un carácter cualitativo y no se pueden medir con números; son aquellas que se expresan en forma verbal o no numérica.
+            p.mb-0 Como su nombre lo indica, miden cualidades y atributos; por ejemplo, ocupación, nacionalidad, estado civil, preferencias, gustos, entre muchas otras y dependiendo del objeto de estudio. También llamadas categóricas, se refieren a las propiedades de los objetos en estudio. Este tipo de variables tiene un carácter cualitativo y no se pueden medir con números; son aquellas que se expresan en forma verbal y escrita, teniendo los diversos atributos.
       .BG02.py-md-5.p-4(titulo="Variables cuantitativas")
         .row.justify-content-center
           .col-lg-6.col-10.mb-lg-0.mb-4
             img(src='@/assets/curso/tema1/img22.jpg' alt="Imagen decorativa")
           .col-lg-6
-            p.mb-0 Miden cantidades y magnitudes. De acuerdo con los valores que puedan asumir, se distingue entre continuas (dan la posibilidad de fraccionar y pueden tomar cualquier valor dentro de un rango) y discretas (solo asumen valores enteros). Las variables cuantitativas son aquellas que pueden ser medidas y se expresan en forma numérica; por ejemplo, la edad, el nivel de ingreso, la cantidad de noches de estadía, el tamaño de la familia, entre muchas otras.
+            p.mb-0 Las variables cuantitativas son aquellas que pueden ser medidas y se expresan en forma numérica; por ejemplo, la edad, el nivel de ingreso, la cantidad de noches de estadía, el tamaño de la familia, entre muchas otras. Miden cantidades y magnitudes. De acuerdo con los valores que puedan asumir, se distingue entre continuas (dan la posibilidad de fraccionar y pueden tomar cualquier valor dentro de un rango) y discretas (solo asumen valores enteros).
 
 </template>
 
