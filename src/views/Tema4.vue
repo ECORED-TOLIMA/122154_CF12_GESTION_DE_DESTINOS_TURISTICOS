@@ -56,7 +56,7 @@
           .col-lg-6.col-10.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img06.jpg' alt="Imagen decorativa")
           .col-lg-6
-            p.mb-0 Este tipo de fuentes contienen información de primera mano, producto del trabajo de campo realizado por los investigadores directamente en una fuente, cuya información no existe en ninguna otra parte. Contienen información directa que será interpretada o evaluada posteriormente por otra persona. 
+            p.mb-0 Este tipo de fuentes contienen información original es decir son de primera mano, son el resultado del trabajo de campo realizado por los investigadores directamente en una fuente, cuya información no existe en ninguna otra parte. Contienen información directa antes de ser interpretada o evaluada por otra persona.
       .BG02.py-md-5.p-4(titulo="Fuentes secundarias")
         .row.justify-content-center
           .col-lg-6.col-10.mb-lg-0.mb-4
@@ -725,7 +725,7 @@
             table(data-aos="zoom-in"  alt="Texto alternativo tabla")
               tbody
                 tr(data-aos="fade-right")
-                  td(style="padding: 5px; background-color: #FFCE73") 
+                  td(style="padding: 5px; background-color: #FFCE73") Descripción / Valoración
                   td(style="padding: 5px; background-color: #FFCE73") Totalmente de acuerdo (5) 
                   td(style="padding: 5px; background-color: #FFCE73") Medianamente de acuerdo (4)
                   td(style="padding: 5px; background-color: #FFCE73") Indeciso (3)
@@ -905,7 +905,7 @@
             .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
               img(src='@/assets/curso/tema4/img58.jpg', alt="Imagen decorativa")
             .col-lg-6(data-aos="fade-left")
-              p.mb-0 b.	Se registra en la siguiente columna la frecuencia absoluta #[em fi] de cada categoría de respuesta, la cual corresponde o se encuentra en los resultados finales de la tabulación.
+              p.mb-0 Se registra en la siguiente columna la frecuencia absoluta #[em fi] de cada categoría de respuesta, la cual corresponde o se encuentra en los resultados finales de la tabulación.
           .row.justify-content-center
             .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
               p.mb-0 Se determina la frecuencia relativa #[em fr] en la columna final de la tabla, mediante dividir la frecuencia absoluta en la totalidad de datos y multiplicar por 100 para convertir en porcentaje. 

@@ -51,11 +51,11 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.order-lg-1.order-2(data-aos="fade-right")
         LineaTiempoD.color-acento-botones
-          p.text-small(numero="1" titulo="Categoría turista o visitante") La variable es la demanda o consumo turístico.
-          p.text-small(numero="2" titulo="Categoría prestadores de servicios turísticos") La variable es la oferta o bienes y servicios que se ofrecen a los visitantes.
-          p.text-small(numero="3" titulo="Categoría economía generada por el turismo") Las variables son empleo, puestos de trabajo, PIB turístico, formación de capital e inversión no financiera.
-          p.text-small(numero="4" titulo="Categoría balanza de pagos") Las variables son importaciones y exportaciones de viajes y transporte.
-          p.text-small(numero="5" titulo="Categoría administraciones públicas") La variable es gastos de la administración pública en actividades o campos relacionados con el turismo.
+          p(numero="1" titulo="Categoría turista o visitante") La variable es la demanda o consumo turístico.
+          p(numero="2" titulo="Categoría prestadores de servicios turísticos") La variable es la oferta o bienes y servicios que se ofrecen a los visitantes.
+          p(numero="3" titulo="Categoría economía generada por el turismo") Las variables son empleo, puestos de trabajo, PIB turístico, formación de capital e inversión no financiera.
+          p(numero="4" titulo="Categoría balanza de pagos") Las variables son importaciones y exportaciones de viajes y transporte.
+          p(numero="5" titulo="Categoría administraciones públicas") La variable es gastos de la administración pública en actividades o campos relacionados con el turismo.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img04.png' alt="Imagen decorativa")
 
