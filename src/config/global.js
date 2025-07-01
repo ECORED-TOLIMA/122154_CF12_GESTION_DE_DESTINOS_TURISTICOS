@@ -102,17 +102,17 @@ export default {
           {
             numero: '4.1',
             titulo: 'Fuentes de información',
-            hash: 't_1_1',
+            hash: 't_4_1',
           },
           {
             numero: '4.2',
             titulo: 'Técnicas de recolección de datos',
-            hash: 't_1_2',
+            hash: 't_4_2',
           },
           {
             numero: '4.3',
             titulo: 'Diseño de herramientas de recolección de datos',
-            hash: 't_1_3',
+            hash: 't_4_3',
           },
           {
             numero: '4.4',
@@ -340,7 +340,7 @@ export default {
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
